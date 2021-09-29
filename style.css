@@ -19,3 +19,12 @@ header{
 .headerColor{
     background: #f5f5f5;
 }
+
+.nav-link{
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color: crimson;
+    transform: scale(1.1) ;
+
+}
