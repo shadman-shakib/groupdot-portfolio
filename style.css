@@ -1,0 +1,21 @@
+body{
+
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header{
+    background-image: url("image/banner.jpg");
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+.headerColor{
+    background: #f5f5f5;
+}
