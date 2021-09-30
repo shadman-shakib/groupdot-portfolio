@@ -12,7 +12,10 @@ header{
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(100%);
+    
 }
+
 .banner-container{
     height: 100vh;
 }
@@ -24,7 +27,34 @@ header{
     transition: 0.4s;
 }
 .nav-link:hover{
-    color: crimson;
     transform: scale(1.1) ;
-
+    
 }
+/* .navHoverColor:hover{
+    color: tomato !important;
+    
+} */
+
+.dicription{
+    line-height: 25.5px;
+    text-align: justify;
+}
+.rectangle {
+    height: 100px;
+    width: 1110px;
+    background-color: white;
+    /* margin-bottom: 100px; */
+  }
+  .logo:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
+  }
+  /* .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 1110px) {
+    .col-sm-6 {
+      flex: 100%;
+    }
+  } */
